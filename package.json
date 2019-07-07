@@ -1,0 +1,19 @@
+{
+  "name": "combine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-q1-s": "cd q1 && jest --coverage -- store.test",
+    "test-q1-l": "cd q1 && jest --coverage -- load.test",
+    "test-q3": "cd q3 && jest --coverage -- q3.test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
