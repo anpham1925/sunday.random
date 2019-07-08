@@ -6,6 +6,7 @@
 
   ## - Q1
   - `store` and `load` functions are saved in `q1/store.js` and `q1/load.js` respectively
+  - the complexity of both `store` and `load` functions are O(n<sup>2</sup>)
   - file to test `store` and `load` functions are saved in `q1/store.test.js` and `q1/load.test.js` respectively
   - `testcases` are saved in `q1/testcases.js`. To add or remove testcase, edit `q1/testcases.js`
 

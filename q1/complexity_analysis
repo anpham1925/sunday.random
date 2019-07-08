@@ -1,0 +1,1 @@
+The complexity of both store and load functions in q1 are O(n*n)

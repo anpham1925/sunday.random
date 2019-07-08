@@ -1,4 +1,3 @@
-const { LOAD } = require('./testcases');
 const load = (text) => {
   const array = [];
   text.split('\n').map(element => {
@@ -16,7 +15,5 @@ const load = (text) => {
   });
   return array;
 };
-
-console.log(load('asdasd'));
 
 module.exports = { load };
